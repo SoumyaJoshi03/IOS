@@ -1,0 +1,16 @@
+import Foundation
+func SpecificLetterCount(str:String, char:Character) ->Int {
+    var letters = Array(str); var count = 0
+    for letter in letters {
+        if letter == char {
+            count += 1
+            
+        }
+        
+    }
+    print(count)
+    return count
+    
+}
+
+SpecificLetterCount(str: "aabbcc", char: "a")
